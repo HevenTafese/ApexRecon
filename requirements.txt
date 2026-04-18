@@ -1,0 +1,9 @@
+python-whois
+dnspython
+requests
+streamlit
+plotly
+pandas
+urllib3
+fpdf2
+openpyxl
