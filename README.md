@@ -77,9 +77,7 @@ ApexRecon/
 │   ├── virustotal_check.py
 │   └── hibp_check.py
 ├── core/
-│   └── scanner.py
-├── dashboard/
-│   └── app.py
+│   └── scanner.py  
 ├── reports/
 ├── docs/
 │   └── screenshots/
