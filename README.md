@@ -4,7 +4,7 @@
 
 ApexRecon is an automated attack surface reconnaissance framework built for passive domain intelligence gathering. The tool chains multiple intelligence sources into a single scan and presents the results through an interactive dashboard.
 
-During my studies, passive reconnaissance was covered as a manual process — running WHOIS lookups, checking certificate transparency logs, querying DNS records one at a time across different tools and browser tabs. This project automates that entire workflow. Given a domain, ApexRecon runs all modules in sequence, aggregates the output, scores the risk level, and produces a structured report that can be exported as JSON, Excel, or PDF.
+During my studies, passive reconnaissance was covered as a manual process, running WHOIS lookups, checking certificate transparency logs, querying DNS records one at a time across different tools and browser tabs. This project automates that entire workflow. Given a domain, ApexRecon runs all modules in sequence, aggregates the output, scores the risk level, and produces a structured report that can be exported as JSON, Excel, or PDF.
 
 ---
 
