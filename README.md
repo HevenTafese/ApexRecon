@@ -101,14 +101,6 @@ python3 main.py
 
 Open `http://localhost:8501`, enter a domain in the sidebar, add API keys if available, and run the scan.
 
-Headless scan (saves report to `reports/`):
-
-```bash
-python3 main.py --scan example.com
-python3 main.py --scan example.com --shodan YOUR_KEY --vt YOUR_KEY --hibp YOUR_KEY
-```
-
----
 
 ## API Keys
 
