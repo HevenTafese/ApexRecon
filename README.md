@@ -10,15 +10,27 @@ During my studies, passive reconnaissance was covered as a manual process, runni
 
 ## Dashboard
 
+**Overview: risk flags, WHOIS summary, server location map and scan metadata**
+
 ![Overview](docs/screenshots/overview.png)
+
+**DNS and Subdomains: DNS records, brute-forced subdomains and certificate transparency results**
 
 ![DNS and Subdomains](docs/screenshots/dns.png)
 
+**Infrastructure: open ports, running services, CVEs and host information via Shodan**
+
 ![Infrastructure](docs/screenshots/infrastructure.png)
+
+**Security Audit: HTTP security headers present and missing, graded A to F**
 
 ![Security Audit](docs/screenshots/security_audit.png)
 
+**Threat Intel: VirusTotal vendor analysis and Have I Been Pwned breach results**
+
 ![Threat Intel](docs/screenshots/threat_intel.png)
+
+**Report: scan summary with JSON, Excel and PDF export**
 
 ![Report](docs/screenshots/report.png)
 
@@ -78,17 +90,6 @@ ApexRecon/
 
 ---
 
-## Setup
-
-```bash
-git clone https://github.com/HevenTafese/ApexRecon.git
-cd ApexRecon
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
----
 
 ## Running the Tool
 
